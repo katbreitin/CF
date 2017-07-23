@@ -1,0 +1,360 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* wrapper used to hold the main content in each page */
+
+
+#wrapper {
+	background-color:#6495ed;
+	margin-right: 225px;
+	margin-left: 225px;
+	border: thick solid #36F;
+}
+
+
+/* header div used to hold the company logo */
+#header {
+	
+	padding-top: 35px;
+	text-align: center;
+}
+
+#header img {
+	max-width: 100%;
+	max-height: 100%;
+
+}
+
+
+body {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 18px;
+	color: #000;
+	background-image: url("coworkingSpaceFull.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+
+/* Used for controlling the main navigation at the top of each page */
+
+
+#mainNav ul	{
+	margin-left: 2%;
+	text-align: center;
+
+}
+
+#mainNav ul li {
+	list-style-type: none;
+	padding-right: 10px;
+	display: inline;
+	font-size: 20px;
+	color: #000;
+	font-weight:bold;
+}
+
+#main section #wMessage {
+	padding-top: 5px;
+	
+	color: #000;
+}
+
+#main section #wMessage h5 {
+	font-size: 20px;
+	display: inline;
+	margin-right: -145px;
+}
+
+#main section #wMessage input#submit, input[type=button] {
+	font-size: 22px;
+	
+	
+	
+	}
+
+#mainNav p { 
+	display:inline;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 2%;
+	
+
+}
+
+#whyBecome {
+	float: right;
+	
+	max-width: 55%;
+    padding-right: 10px;
+}
+
+#whyBecome h3{
+	text-decoration: underline;
+}
+
+#main #whyBecome a {
+	text-align: center;
+	color:red;
+	display: block;
+
+}
+
+
+
+/* sudo-classes used to change the color of text links after a user acts upon them */
+
+a:link {
+	color: #000;
+}
+a:visited {
+	color: #4ECCCB;
+}
+a:hover {
+	color:#044567;
+}
+a:active {
+	color: #6dccd2;
+}
+			
+			
+/* Main div contains the majority of the content of each page */
+#main {
+	background-color: #FFF;
+	width: 100%;
+	height: 100%;
+}
+
+#iconSpace #direction p {
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	padding-top: 28px;
+	
+}
+
+#iconSpace #phoneIcon p {
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	padding-top: 65px;
+	
+}
+
+#iconSpace #emailIcon p {
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	padding-top: 60px;
+	
+}
+
+#main p {
+	
+	font-size: 28px;
+	padding-left: 25px;
+	padding-right: 5px;
+	
+	
+}
+
+.notice {
+	color:#36F;
+	font-size: 55px;
+}
+
+
+#main dl {
+	font-family: "Courier New", "Courier", "monospace";
+	font-weight: bolder;
+	font-size: 25px;
+	max-width: 50%;
+	padding-left: 45px;
+}
+#main dt {
+	font-size: 35px;
+}
+#main dd {
+	font-style: italic;
+}
+
+#iconSpace {
+	max-width: 35%;
+	border-right: black medium solid;
+	
+}
+
+/* Used to control the images within the Main div */
+#main img	{
+			float: right;
+			clear: both;
+			padding-top: 15px;
+			padding-right:15px;
+			
+}
+
+#lowerPic img {
+		float: left;
+		clear: both;
+		padding-left: 5px;
+}
+
+#iconSpace #direction img {
+	float:left;
+	clear: left;
+	padding-left: 15px;
+}
+
+#iconSpace #phoneIcon img {
+	float:left;
+	clear:left;
+	padding-left: 15px;
+
+}
+
+#iconSpace #emailIcon img {
+	float: left;
+	clear: left;
+	padding-left: 15px;
+}
+
+/* Used to specify the image and link that fell within the paragraph under the Main div */
+
+#main p img	{
+			padding-top: 45px;
+}
+
+#main p	a	{
+			margin-left: 40%;
+}
+
+#main #spaces.pricing ol{
+	padding-bottom: 95px;
+	
+}
+
+.info      { display: block;
+			margin-right: 25px;
+			font-size: 24px;
+}
+
+
+#main #spaces.pricing ol li {
+			font-size: 20px;
+			color: #000;
+}
+/* These ids from the form on the Contact Us page are used to control how the text-area line up on that page  */
+
+form {
+	width: 400px;
+	margin: 0 auto;
+}
+
+	
+#Fname, #email, #Lname, #add1, #add2, #city, #state, #zipCode, #TelNum, #questArea {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 18px;
+	display: block;
+	margin-left: 17%;
+	margin-bottom: 15px;
+}
+
+#submit, #reset {
+	background-color: #36F;
+	color: #fff;
+}
+
+/* Used to color the form items such as the "*" indicating a required field and the "Required Fields=*" text above the form */
+
+.colorChange {
+	color: #F00;
+	text-align: center;
+}
+
+
+label  {
+	padding-left: 16%;
+	display: block;
+	font-size: 15px;
+}
+
+/* Submit id controlling the buttons used to submit or reset the forms */
+
+#submit	{	display: inline;
+			margin-left: 70%;
+		
+}
+
+/* container for the content below the Main div on the bottom of the pages */
+#footer {
+	background-color: #6495ed;
+	width: 100%;
+	clear: both;
+	
+}
+
+#footer {
+	border-top-width: medium;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-style: solid;
+	border-color: #000;
+	
+}
+
+/* specifying the paragraph within the footer div */
+
+#footer p, h5 {
+	
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+}
+
+ol		{
+	text-align: center;
+}
+
+ol li	{
+		display: inline;
+		color: #6DCCD2;
+		padding-right: 2%;
+		font-size: 15px;
+}
+
+#footer ul {
+	text-align: center;
+}
+
+#footer ul li {
+	display: inline-block;
+
+}
+
+
+h1 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	padding-top: 8px;
+	text-align: center;
+	font-size: 38px;
+}
+
+h2 {font-weight: bold;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	padding-left: 30px;
+}
+
+ #Fname, #email, #Lname, #add1, #add2, #city, #state, #zipCode, #TelNum, #questArea 	{max-width: 100%;}
+					
+	#main  img	{max-width: 100%;
+				height: auto;
+				}
+	#main p img	{padding-bottom: 10px;
+				}
+
+	#footer ol li {display: block;
